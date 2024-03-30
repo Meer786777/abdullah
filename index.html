@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <style>
+        body {
+            margin: 0 auto;
+            background-color: green;
+            height: 800px;
+            width: 500px;
+            border: 2px black solid;
+            border-radius: 20px;
+            padding: 2px;
 
-    <h1>hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quas tenetur! Modi recusandae deleniti, vitae debitis quisquam voluptate ipsa deserunt impedit molestiae quaerat laudantium quae qui vero quibusdam, repudiandae eius?</p>
+
+        }
+
+        div {
+            height: 20px;
+            width: 400px;
+            border: 2px black solid;
+            background-color: lightgreen;
+            text-align: center;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+
+        h3 {
+            text-align: left 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Step1: Your Details</h3>
+    <div>Name <input type="check box" placeholder="Type your name"> </div>
+    <div>Email <input type="check box" placeholder="example@domain.com"></div>
+    <div>Phone <input type="check box" placeholder="Eg. +447560000"></div>
+    <h3>Step2: Delivery Address </h3>
+    <div>Address <input type="check box"></div>
+    <div>Post Code <input type="check box"></div>
+    <div>Country <input type="check box"></div>
+    <h3>Step3: Card Details</h3>
+    <div>
+        Card type:
+        <input type="radio" name="priority"> VISA
+        <input type="radio" name="priority">AmEx
+        <input type="radio" name="priority"> Mastercard
+
+    </div>
+    <div>Card Number <input type="check box"></div>
+    <div>Security Code <input type="check box"></div>
+    <div>Name on Card <input type="check box" placeholder="Exact name as on the card"></div><br>
+
 </body>
+
 </html>
